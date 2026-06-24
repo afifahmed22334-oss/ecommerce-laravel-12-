@@ -184,6 +184,7 @@ class CartController extends Controller
                 return redirect()->back()->with('error', 'Invalid coupon code!');
             }else{
                 Session::put('coupon', [
+                    'coupon_id' => $coupon->id,
                     'code' => $coupon->code,
                     'type' => $coupon->type,
                     'value' => $coupon->value,

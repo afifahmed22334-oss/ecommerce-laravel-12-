@@ -7,10 +7,10 @@
         <section class="my-account container">
             <h2 class="page-title">My Account</h2>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-2">
                     @include('user.account-nav')
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-10">
                     <div class="page-content my-account__dashboard">
                         <p>Hello <strong>User</strong></p>
                         <p>From your account dashboard you can view your <a class="unerline-link"
